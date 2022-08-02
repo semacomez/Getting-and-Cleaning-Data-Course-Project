@@ -8,7 +8,7 @@ Human Activity Recognition Using Smartphones from https://archive.ics.uci.edu/ml
 ### Files
 **CodeBook.md** a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
-**R_script.R** includes R code for preparing tiny data by following the 5 steps below:
+**R_script** includes R code for preparing tiny data by following the 5 steps below:
 
 - Merges the training and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
