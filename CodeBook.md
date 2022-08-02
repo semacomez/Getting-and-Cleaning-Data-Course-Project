@@ -14,6 +14,18 @@ After getting tables from files, I started to follow the steps described in inst
 In this step, `data_mean_sd` is created by selecting `sub_id`, `label`, the columns contains `mean` and `std` expressions.
 #### 3. Uses descriptive activity names to name the activities in the data set
 The `label` column of `data_mean_sd` is updated with the `activity_name` values in the `activ` data set by matching with `label` columns. 
+#### 4. Appropriately labels the data set with descriptive variable names. 
+- The label column is renamed as `activity_name`.
+- The sub_id is renamed as `activity_name`
+- The Acc expressions in the column names are coverted to `Accelerometer`.
+- The Gyro expressions in the column names are coverted to `Gyroscope`.
+- The BodyBody expressions in the column names are coverted to `Body`.
+- The Mag expressions in the column names are coverted to `Magnitude`.
+- The t expressions in the column names are coverted to `Time`.
+- The f expressions in the column names are coverted to `Frequency`.
+- angle and gravity are converted to `Angle` and `Gravity`.
+
+
 
 
 
