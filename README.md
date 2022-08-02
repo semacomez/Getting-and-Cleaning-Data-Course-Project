@@ -6,7 +6,7 @@ This respiratory involves analysis I done on Human Activity recognition dataset.
 Human Activity Recognition Using Smartphones from https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
 
 ### Files
-**CodeBook.md** a code book that that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
+**CodeBook.md** a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
 **R_script.R** includes R code for preparing tiny data by following the 5 steps below:
 
@@ -16,4 +16,4 @@ Human Activity Recognition Using Smartphones from https://archive.ics.uci.edu/ml
 - Appropriately labels the data set with descriptive variable names. 
 - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-**df_final.txt** is the final data.
+**df_final.txt** is the final data file.
