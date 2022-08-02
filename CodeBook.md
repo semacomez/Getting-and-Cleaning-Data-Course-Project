@@ -24,9 +24,5 @@ The `label` column of `data_mean_sd` is updated with the `activity_name` values 
 - The t expressions in the column names are coverted to `Time`.
 - The f expressions in the column names are coverted to `Frequency`.
 - angle and gravity are converted to `Angle` and `Gravity`.
-
-
-
-
-
-
+#### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+`df_final` is the final data set that is obtained by `group_by` and `summarise _all(list(mean))` functions. The data is extracted with `write.table` function to `df_final.txt` file.
