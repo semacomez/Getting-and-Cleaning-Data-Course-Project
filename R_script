@@ -51,8 +51,7 @@ names(data_mean_std)<-gsub("-freq()", "Frequency", names(data_mean_std), ignore.
 names(data_mean_std)<-gsub("angle", "Angle", names(data_mean_std))
 names(data_mean_std)<-gsub("gravity", "Gravity", names(data_mean_std))
 
-#From the data set in step 4, creates a second, independent tidy 
-#data set with the average of each variable for each activity and each subject.
+#From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 df_final <- data_mean_std %>%
   group_by(subject_id, activity_name) %>%
