@@ -58,6 +58,3 @@ df_final <- data_mean_std %>%
   group_by(subject_id, activity_name) %>%
   summarise_all(list(mean))
 write.table(df_final, "df_final.txt", row.name=FALSE)
-
-
-str(df_final)
