@@ -1,6 +1,6 @@
 # Peer-graded Assignment: Getting and Cleaning Data Course Project
 
-This respiratory includes analysis I done on Human Activity recognition dataset.
+This respiratory involves analysis I done on Human Activity recognition dataset.
 
 ### Dataset
 Human Activity Recognition Using Smartphones from https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
@@ -8,7 +8,7 @@ Human Activity Recognition Using Smartphones from https://archive.ics.uci.edu/ml
 ### Files
 **CodeBook.md** a code book that that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
-**R_script.R** is prepared by following the 5 steps below:
+**R_script.R** includes R code for preparing tiny data by following the 5 steps below:
 
 - Merges the training and the test sets to create one data set.
 - Extracts only the measurements on the mean and standard deviation for each measurement. 
